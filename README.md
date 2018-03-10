@@ -1,6 +1,6 @@
 # iA Writer Sublime
 
-I like the aesthetics of [iA Writer](ia-writer) but I cannot live without Sublime Text's amazing features and speed. So this project is an attempt to being iA's looks and experience as much as possible into Sublime Text.
+I like the aesthetics of [iA Writer][ia-writer] but I cannot live without Sublime Text's amazing features and speed. So this project is an attempt to being iA's looks and experience as much as possible into Sublime Text.
 
 ## Installation
 
@@ -18,20 +18,20 @@ Clone this repository into your packages directory.
 
 I *highly* recommend you install the following packages:
 
-* [MarkdownEditing](markdown-editing)
-* [WordCount](word-count)
-* [Pandoc](pandoc)
-* [Table Editor](table-editor)
+* [MarkdownEditing][markdown-editing]
+* [WordCount][word-count]
+* [Pandoc][pandoc]
+* [Table Editor][table-editor]
 
 ### Fonts
 
 And if you truly want an iA Writer-like experience, install the following fonts:
 
-* [iA Writer Duospace](ia-writer-duospace)
+* [iA Writer Duospace][ia-writer-duospace]
 	- Fortunately, iA Writer's Duospaced font is free!
 	- Unfortunately, Sublime Text doesn't (yet?) support bold/italic/etc styles on non-monospaced fonts - so while you can use this beautiful font, you won't be able to have bold/italic/etc text in your editor :devastating:
 	- See https://forum.sublimetext.com/t/italic-bold-not-working/22089/34
-* [IBM Plex Mono](ibm-plex-mono)
+* [IBM Plex Mono][ibm-plex-mono]
 	- Because of the above, IBM Plex Mono is the next best choice. It is actually the font that iA Writer Duospace was created from, *and* it **is** monospaced. So this is as close as you can get to iA Writer at the moment.
 * Nitti, if you have it.
 	- This has been iA Writer's flagship font for many years, but doesn't have a free license (I prefer their new iA Writer Duospace anyway).
