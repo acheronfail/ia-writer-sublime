@@ -2,6 +2,8 @@
 
 I like the aesthetics of [iA Writer][ia-writer] but I cannot live without Sublime Text's amazing features and speed. So this project is an attempt to being iA's looks and experience as much as possible into Sublime Text.
 
+![screenshot](screenshots/1.png)
+
 ## Installation
 
 #### Package Control
