@@ -4,6 +4,27 @@ I like the aesthetics of [iA Writer][ia-writer] but I cannot live without Sublim
 
 ![screenshot](screenshots/1.png)
 
+### Features
+
+Why Sublime Text over iA Writer?
+
+* The raw performance of Sublime Text
+	- Sublime is easy on memory, and blazingly fast
+	- Over the years, there have been several updates to iA Writer which cause it to hang, pause, or just eat CPU
+* Proper syntax highlighting of fenced code blocks<sup>§</sup>
+* The excellent text-editing experience of Sublime Text
+	- multiple cursors
+	- selection logic
+	- plugins/extensions
+	- minimap
+	- customisation
+	- ...need I go on?
+* See [Sublime Text's website](https://www.sublimetext.com/)
+
+And, when you install this package, you get the beauty of iA Writer in Sublime Text!
+
+<sup>§</sup>: requires installing [MarkdownEditing][markdown-editing]
+
 ## Installation
 
 #### Package Control
