@@ -1,0 +1,224 @@
+{
+  "name": "iA Writer - Dark",
+  "variables": {
+    "accent": "#15bdec",
+    "background": "#1d1f20",
+    "text-0": "#c5c9c6",
+    "text-1": "#707070",
+    "shade-0": "#222424",
+    "shade-1": "#909090",
+  },
+  "globals": {
+    "caret": "var(accent)",
+    "selection": "#20434e",
+    "selection_border": "rgba(21, 189, 236, 0.5)",
+    "selection_foreground": "var(text-0)",
+    "background": "var(background)",
+    "foreground": "var(text-0)",
+  },
+  "rules": [
+    // Headings
+    {
+      "scope": "meta.block-level.markdown markup.heading.markdown entity.name.section.markdown",
+      "foreground": "var(text-0)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "punctuation.definition.heading.markdown",
+      "foreground": "var(text-0)",
+      "font_style": "bold"
+    },
+
+    // Horizontal rule
+    {
+      "scope": "meta.separator.markdown",
+      "foreground": "var(text-1)",
+      "background": "var(shade-0)"
+    },
+
+    // Inline markup
+    {
+      "scope": "markup.italic.markdown",
+      "font_style": "italic"
+    },
+    {
+      "scope": "markup.bold.markdown",
+      "font_style": "bold"
+    },
+    {
+      "scope": "markup.bold.markdown markup.italic.markdown",
+      "font_style": "bold italic"
+    },
+    {
+      "scope": "markup.strikethrough.markdown",
+      "font_style": "bold"
+    },
+    {
+      "scope": "markup.raw.inline.markdown",
+      "background": "var(shade-0)",
+    },
+    {
+      "scope": "markup.output, markup.raw",
+      "foreground": "var(shade-1)",
+    },
+
+    // Links
+    {
+      "scope": "markup.underline.link.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "constant.other.reference.link.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "punctuation.separator.key-value.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "punctuation.definition.link.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "punctuation.definition.metadata.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "punctuation.definition.string.begin.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "punctuation.definition.string.end.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "punctuation.definition.constant.begin.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "punctuation.definition.constant.end.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "markup.underline.link.image.markdown",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "string.other.link.description.title",
+      "foreground": "var(shade-1)",
+    },
+    {
+      "scope": "punctuation.definition.string.markdown",
+      "foreground": "var(shade-1)",
+    },
+
+    // Lists
+    {
+      "scope": "punctuation.definition.list_item.markdown",
+      "font_style": "bold"
+    },
+
+    // Code blocks
+    {
+      "scope": "markup.raw.block.markdown",
+      "background": "var(shade-0)"
+    },
+
+    // Blockquotes
+
+    {
+      "scope": "punctuation.definition.blockquote.markdown",
+      "background": "#303232",
+      "foreground": "#303232",
+    },
+    {
+      "scope": "markup.quote.markdown",
+      "foreground": "var(shade-1)",
+    },
+    {
+      "scope": "markup.quote.markdown punctuation",
+      "foreground": "var(text-1)",
+    },
+
+    // Misc
+    {
+      "scope": "comment.block.html",
+      "foreground": "var(text-1)",
+    },
+    {
+      "scope": "comment, comment punctuation",
+      "foreground": "#525252",
+    },
+    {
+      "scope": "punctuation",
+      "foreground": "#ffffff",
+    },
+
+    // Rules below are for codeblocks (not markdown specific)
+
+    // red    #f2777a
+    // blue   #7aa4c2
+    // green  #b1be5a
+    // white  #afb1af
+    // yellow #f2b160
+    // purple #b893be
+    // orange #ea9052
+
+    {
+      "scope": "meta.function.declaration storage.type, storage.type, keyword",
+      "foreground": "#b893be",
+      "font_style": "italic"
+    },
+    {
+      "scope": "meta.function.declaration entity.name.function, entity.name.function, meta.function, meta.function-call",
+      "foreground": "#7aa4c2"
+    },
+    {
+      "scope": "keyword.operator",
+      "foreground": "#f2b160",
+      "font_style": ""
+    },
+    {
+      "scope": "punctuation.section, punctuation.terminator",
+      "foreground": "#afb1af"
+    },
+    {
+      "scope": "variable.parameter, variable.other.readwrite, meta",
+      "foreground": "var(text-0)"
+    },
+    {
+      "scope": "constant.numeric, punctuation.definition.numeric",
+      "foreground": "#ea9052"
+    },
+    {
+      "scope": "string.quoted, string.template, punctuation.definition.string",
+      "foreground": "#b1be5a"
+    },
+    {
+      "scope": "variable.other.constant, constant.language",
+      "foreground": "#f2777a"
+    },
+    {
+      "scope": "comment",
+      "foreground": "var(text-1)"
+    },
+
+    {
+      "scope": "invalid.deprecated",
+      "background": "#103030",
+      "font_style": "italic underline"
+    },
+    {
+      "scope": "invalid.illegal",
+      "foreground": "#060d31",
+    },
+    {
+      "scope": "support.function, entity",
+      "foreground": "#9e79d0",
+    },
+    {
+      "scope": "punctuation.definition.tag",
+      "foreground": "var(text-1)",
+    }
+  ],
+}
