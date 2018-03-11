@@ -1,12 +1,21 @@
 {
   "name": "iA Writer - Dark",
   "variables": {
+    // Markdown highlighting
     "accent": "#15bdec",
     "background": "#1d1f20",
     "text-0": "#c5c9c6",
     "text-1": "#707070",
     "shade-0": "#222424",
     "shade-1": "#909090",
+    // Syntax highlighting
+    "red": "#f2777a",
+    "blue": "#7aa4c2",
+    "green": "#b1be5a",
+    "white": "#afb1af",
+    "yellow": "#f2b160",
+    "purple": "#b893be",
+    "orange": "#ea9052",
   },
   "globals": {
     "caret": "var(accent)",
@@ -156,31 +165,23 @@
 
     // Rules below are for codeblocks (not markdown specific)
 
-    // red    #f2777a
-    // blue   #7aa4c2
-    // green  #b1be5a
-    // white  #afb1af
-    // yellow #f2b160
-    // purple #b893be
-    // orange #ea9052
-
     {
       "scope": "meta.function.declaration storage.type, storage.type, keyword",
-      "foreground": "#b893be",
+      "foreground": "var(purple)",
       "font_style": "italic"
     },
     {
       "scope": "meta.function.declaration entity.name.function, entity.name.function, meta.function, meta.function-call",
-      "foreground": "#7aa4c2"
+      "foreground": "var(blue)"
     },
     {
       "scope": "keyword.operator",
-      "foreground": "#f2b160",
+      "foreground": "var(yellow)",
       "font_style": ""
     },
     {
       "scope": "punctuation.section, punctuation.terminator",
-      "foreground": "#afb1af"
+      "foreground": "var(white)"
     },
     {
       "scope": "variable.parameter, variable.other.readwrite, meta",
@@ -188,15 +189,15 @@
     },
     {
       "scope": "constant.numeric, punctuation.definition.numeric",
-      "foreground": "#ea9052"
+      "foreground": "var(orange)"
     },
     {
       "scope": "string.quoted, string.template, punctuation.definition.string",
-      "foreground": "#b1be5a"
+      "foreground": "var(green)"
     },
     {
       "scope": "variable.other.constant, constant.language",
-      "foreground": "#f2777a"
+      "foreground": "var(red)"
     },
     {
       "scope": "comment",
@@ -205,16 +206,16 @@
 
     {
       "scope": "invalid.deprecated",
-      "background": "#103030",
+      "background": "#106060",
       "font_style": "italic underline"
     },
     {
       "scope": "invalid.illegal",
-      "foreground": "#060d31",
+      "foreground": "#600d31",
     },
     {
       "scope": "support.function, entity",
-      "foreground": "#9e79d0",
+      "foreground": "var(purple)",
     },
     {
       "scope": "punctuation.definition.tag",
