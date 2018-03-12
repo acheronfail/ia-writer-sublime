@@ -108,6 +108,16 @@ Further down the track, it might be nice to add support for the following:
 * Example uses of Pandoc to mimic iA Writer's export/preview functions
 * UI Theme to mimic iA Writer even more
 
+### Related Links
+
+* https://ia.net/topics/in-search-of-the-perfect-writing-font/
+* https://ia.net/writer/
+* https://github.com/iaolo/iA-Fonts
+* https://forum.sublimetext.com/t/italic-bold-not-working/22089/34?u=acheronfail
+* https://github.com/SublimeTextIssues/Core/issues/279
+* https://forum.sublimetext.com/t/how-to-enable-bold-and-italic-for-not-monospace-font/34008
+* http://hypertext.net/2011/06/mimic-writer-aesthetic/
+
 ### License
 
 [MIT](./LICENSE)
