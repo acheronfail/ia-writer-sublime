@@ -111,7 +111,11 @@ Further down the track, it might be nice to add support for the following:
 * Example uses of Pandoc to mimic iA Writer's export/preview functions
 * UI Theme to mimic iA Writer even more
 
-### Related Links
+### Related
+
+Sublime Text Build 3127 and above print `font face "iA Writer Duospace" is not monospace, disabling bold and italic to prevent text reflow`, unfortunately this isn't something that is supported at the moment. [Sublime Developer **wbond** also mentions](https://forum.sublimetext.com/t/proportional-fonts-lose-italic-bold-syntax-highlighting/10245/10?u=acheronfail):
+
+> As far as I understand it, this is designed this way on purpose. I doubt it will change.
 
 * https://ia.net/topics/in-search-of-the-perfect-writing-font/
 * https://ia.net/writer/
