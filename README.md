@@ -92,7 +92,10 @@ I found that these settings worked the best for me:
 
 ### UI Theme
 
-This package doesn't include a UI Theme - I use Sublime's default Adaptive theme and it works for me.
+This package doesn't include a UI Theme - I use Sublime's default Adaptive theme and it works for me. Although, performing the following really make it feel like writing in a prose editor:
+
+* Hide the tabs `View` -> `Hide Tabs`
+* Hide the sidebar `View` -> `Side Bar` -> `Hide Side Bar`
 
 #### Roadmap
 

@@ -19,6 +19,9 @@
   },
   "globals": {
     "caret": "var(accent)",
+    "gutter": "var(background)",
+    "gutter_foreground": "var(text-1)",
+    "line_highlight": "var(background)",
     "selection": "#20434e",
     "selection_border": "rgba(21, 189, 236, 0.5)",
     "selection_foreground": "var(text-0)",
@@ -220,6 +223,28 @@
     {
       "scope": "punctuation.definition.tag",
       "foreground": "var(text-1)",
+    },
+
+    // GitGutter
+    {
+      "scope": "markup.deleted.git_gutter",
+      "foreground": "var(red)"
+    },
+    {
+      "scope": "markup.inserted.git_gutter",
+      "foreground": "var(green)"
+    },
+    {
+      "scope": "markup.changed.git_gutter",
+      "foreground": "var(blue)"
+    },
+    {
+      "scope": "markup.ignored.git_gutter",
+      "foreground": "var(purple)"
+    },
+    {
+      "scope": "markup.untracked.git_gutter",
+      "foreground": "var(white)"
     }
   ],
 }
