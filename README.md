@@ -27,13 +27,14 @@ And, when you install this package, you get the beauty of iA Writer in Sublime T
 
 ## Installation
 
-#### Package Control
+Clone this repository into your packages directory:
 
-Coming soon (hopefully).
-
-#### Manually
-
-Clone this repository into your packages directory.
+```bash
+# You can find the Package directory by clicking in the menu and selecting:
+# Preferences -> Browse Packages... This is where you should clone this repo.
+cd path/to/packages/directory
+git clone https://github.com/acheronfail/ia-writer-sublime.git
+```
 
 ## Usage
 
