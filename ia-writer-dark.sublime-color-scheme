@@ -1,13 +1,18 @@
 {
   "name": "iA Writer - Dark",
   "variables": {
-    // Markdown highlighting
-    "accent": "#15bdec",
-    "background": "#1d1f20",
+    // Cyan (like iA Writer)
+    "background":       "#1d1f20",
+    "accent":           "rgba(21, 189, 236, 1.0)",
+    "selection":        "rgba(21, 189, 236, 0.2)",
+    "selection_border": "rgba(21, 189, 236, 0.5)",
+
+    // Basic theming
     "text-0": "#c5c9c6",
     "text-1": "#707070",
     "shade-0": "#222424",
     "shade-1": "#909090",
+
     // Syntax highlighting
     "red": "#f2777a",
     "blue": "#7aa4c2",
@@ -22,8 +27,11 @@
     "gutter": "var(background)",
     "gutter_foreground": "var(text-1)",
     "line_highlight": "var(background)",
-    "selection": "#20434e",
-    "selection_border": "rgba(21, 189, 236, 0.5)",
+    "selection": "var(selection)",
+    "selection_border": "var(selection_border)",
+    // "selection_border_width": "1",
+    "selection_corner_style": "round",
+    "selection_corner_radius": "5",
     "selection_foreground": "var(text-0)",
     "background": "var(background)",
     "foreground": "var(text-0)",
