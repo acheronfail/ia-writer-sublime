@@ -39,6 +39,16 @@
   "rules": [
     // Headings
     {
+      "scope": "text.html.markdown meta.block-level.markdown markup.heading.1.markdown entity.name.section.markdown",
+      "foreground": "var(text-0)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "text.html.markdown meta.block-level.markdown markup.heading.2.markdown entity.name.section.markdown",
+      "foreground": "var(text-0)",
+      "font_style": "bold"
+    },
+    {
       "scope": "meta.block-level.markdown markup.heading.markdown entity.name.section.markdown",
       "foreground": "var(text-0)",
       "font_style": "bold"
