@@ -32,7 +32,7 @@ Clone this repository into your packages directory:
 ```bash
 # You can find the Package directory by clicking in the menu and selecting:
 # Preferences -> Browse Packages... This is where you should clone this repo.
-cd path/to/packages/directory
+cd path/to/sublime-text-3/Packages
 git clone https://github.com/acheronfail/ia-writer-sublime.git
 ```
 
